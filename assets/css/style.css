@@ -1,0 +1,114 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --mypage-padding-s: 188px;
+    --mynav-padding-e: 176px;
+    --mypage-padding-x: 24px;
+    --my-pri-background:  #F6F6F6;
+    --my-button-bg-color: #8EADD5;
+}
+.my-icons-fs{
+    font-size: 16px !important;
+}
+.my-px-sm{
+    padding: 0 var(--mypage-padding-x) !important;
+}
+.my-bg-color{
+    background-color: var(--my-pri-background) !important;
+}
+.my-br-20{
+    border-radius: 20px;
+}
+.my-btn-bg-color{
+    background-color: var(--my-button-bg-color) !important;
+}
+.my-navbrand-fs{
+    font-size: 14px !important;
+}
+.my-hero-mt{
+    margin-top: 6.0625rem !important;
+}
+.my-companies-mt{
+    margin-top: 7.5rem !important;
+}
+/* .my-companies-bg{
+    background-color: #F6F6F6;
+} */
+.my-sections-mt{
+    margin-top: 5.5rem !important;
+}
+.mycard{
+    width: 23.375rem;
+    margin-top: 16px;
+    border-radius: 20px;
+}
+.my-footer-py{
+    padding-top: 105px;
+    padding-bottom: 24px;
+}
+.my-footer-gap{
+    gap: 72px;
+}
+/* .rotated::after {
+  transform: rotate(90deg);
+} */
+
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .my-px-lg{
+        padding-left: var(--mypage-padding-s) !important;
+        padding-right: var(--mynav-padding-e) !important;
+    }
+    .my-nav-gap-lg{
+        gap: 44px !important;
+    }
+    .my-icons-fs{
+    font-size: 36px !important;
+    }
+    .my-navbrand-fs{
+        font-size: 20px !important;
+    }
+    .my-herotext-mw{
+        max-width: 540px !important;
+    }
+    .my-herotext-fs{
+        font-size: 64px !important;
+    }
+    .my-companies-mt{
+        margin-top: 9.8125rem !important;
+    }
+    .my-companies-mw{
+        max-width: 915px !important;
+    }
+    .my-companies-box{
+        margin-top: 157px !important;
+    }
+    .my-sections-mt{
+        margin-top: 8.5rem !important;
+    }
+    .my-branding-mw{
+        max-width: 435.6867px !important;
+    }
+    .my-branding-fs{
+        font-size: 48px !important;
+    }
+    .mycard{
+        margin-top: 38px;
+    }
+    .my-footer-py{
+        padding-bottom: 18px;
+    }
+    .carousel-inner {
+        display: flex;
+    }
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
+}
